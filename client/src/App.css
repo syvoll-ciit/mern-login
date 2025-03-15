@@ -1,0 +1,86 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1d252e;
+  color: #dbdbc6;
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #303a4e;
+  border-radius: 10px;
+  background-color: #303a4e;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-bottom: 1px solid #9e9e9ea1;
+  outline: none;
+  background-color: transparent;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #dbdbc6;
+}
+
+input::placeholder {
+  color: #c4c4c49d;
+}
+
+input:focus {
+  border-bottom-color: #35c25f;
+}
+
+input::-ms-reveal {
+  filter: invert(50%);
+}
+
+.submit-button {
+  padding: 12px;
+  color: #f5f5f4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+  display: block;
+  background-color: #35c25f;
+}
+
+.submit-button:hover {
+  background-color: #259e4a;
+}
+
+.message {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.message.success {
+  color: #35c25f;
+}
+
+.message.error {
+  color: #ff4d4d;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 30px;
+  color: #dbdbc6;
+  text-align: center;
+}
